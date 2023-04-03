@@ -8,6 +8,6 @@ chat_id = 1379613676  # Ваш chat ID, не меняйте название п�
 
 
 def solution(p: float, x: np.array) -> tuple:
-    alpha = 1 - p
+    alpha = p
     b_alpha = np.quantile(x, alpha)
     return .059, b_alpha
